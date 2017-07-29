@@ -1,0 +1,52 @@
+* {
+	padding: 0px; 
+	margin: 0px; 
+	border: 0px; 
+}
+
+.body {
+	display: block; 
+	float: left; 
+}
+
+
+.head {
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+}
+
+.head_on {
+	float: left; 
+	clear: both; 
+	visibility: visible; 
+}
+
+#heads {
+	float: left; 
+}
+
+/*Note: a problem I ran across here is that when floating an object the div that it is in will not wrap all the way around it.  It will contain it left and right, but it's what I call the printer effect, the object is spat out of the middle of the div and hangs down from there.  What you have to do to fix it is to not float something in the div, a spacer works really good, and also, give a width to the containing div.  Rememeber that... bitch.  */
+
+#hydra {
+	padding: 20px; 
+	width: 680px; 
+	background-color: rgb(252,236,236); 
+}
+
+a {
+	padding: 0px 30px; 
+}
+
+#where {
+	display: inline; 
+}
+
+#spacer {
+	background-color: blue; 
+	clear: both; 
+}
+
+#links {
+	clear: both; 
+}
